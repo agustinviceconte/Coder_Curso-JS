@@ -1,0 +1,46 @@
+Logica proposicional
+
+Negación (==, ===)
+distinto (!=)
+estrictamente distinto (!==) compara valor y tipo)
+Conjunción (and) (&&)
+Disyunción inclusiva (or) (||)
+negado
+ = (!)
+
+== compara valor
+=== compara valor y tipo
+
+.uppercase o .lowercase para especificar mayusculas o minusculas
+
+let numero =Number(pompt("")) para convertir a numero (entero o decimal)
+
+
+Rangos
+If (numero >= x && <= x)
+
+desafio : usar el "and" y el "or"
+
+-------------
+Ingrese su nombre:
+
+Ingrese su fecha de nacimiento:
+
+Ingrese el siguiente código verificador:
+
+-Verificar "" (datos vacíos)
+
+-Calcular edad y asignar categoría (cadete, senior, veterano)
+
+si ambos datos están vacíos "No se ha registrado el ingreso de datos"
+
+si dato nombre está vacío: "Uno de los datos no se ha ingresado"
+
+else "Hola NOMBRE", según nuestros registros...etc etc
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+Variables
+------------------------
+
+NO USAR "var"
+
+USAR "let"  (en minúsculas, camel case)
+
+
+
+const: definir constantes (en mayúsculas)
+
+parseInt: cambia el tipo a Integer
+parseFloat: cambia a tipo flotante
+
+NUMBER: cambia a tipo numero(entero y flotante)
+
+
+
