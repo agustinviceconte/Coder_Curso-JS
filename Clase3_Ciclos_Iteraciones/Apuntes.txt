@@ -1,0 +1,13 @@
+
+pedir al usuario una operacion (+,-,%,*)
+
+pedir dos números y realizar la operacion
+
+
+seguir pidiendo opearaciones y números  hasta ingresar ESC
+
+
+Idea de trabajo integrador: cotizador
+
+
+
