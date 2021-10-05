@@ -1,0 +1,1423 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #243030;
+}
+
+.col-1 {
+  width: 8.33333%;
+}
+
+.col-2 {
+  width: 16.66667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.33333%;
+}
+
+.col-5 {
+  width: 41.66667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.33333%;
+}
+
+.col-8 {
+  width: 66.66667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.33333%;
+}
+
+.col-11 {
+  width: 91.66667%;
+}
+
+.col-12 {
+  width: 100%;
+}
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.navegacion__caja {
+  width: 100% !important;
+  background-color: rgba(0, 0, 0, 0.651);
+  backdrop-filter: blur(8px);
+  position: fixed;
+  z-index: 1;
+  height: fit-content;
+}
+
+.navegacion__logo {
+  display: inline-block;
+}
+
+.navegacion__navbar {
+  display: inline-block;
+}
+
+.navegacion__menu {
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.navegacion__menu .navegacion__item {
+  display: inline-block;
+  margin: 1em;
+  text-decoration: none;
+}
+
+.navegacion__menu .navegacion__item .navegacion__link {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+ul {
+  list-style: none;
+  font-size: 0;
+}
+
+li {
+  display: inline-block;
+  position: relative;
+  font-size: 16px;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  text-decoration: none;
+}
+
+ul ul {
+  position: absolute;
+  line-height: 15px;
+  display: none;
+  width: 150px;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.651);
+  backdrop-filter: blur(8px);
+  text-decoration: none;
+}
+
+ul ul li {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+ul li:hover ul {
+  display: block;
+}
+
+.submenu {
+  text-decoration: none;
+  color: white;
+  font-size: small;
+}
+
+.hero__caja {
+  width: 100%;
+  background-image: url(../Imagenes/Marshall.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0%;
+  padding: 0%;
+}
+
+.hero__caja .hero__titulo {
+  width: 100%;
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  margin-top: 100px;
+  font-family: Roboto;
+}
+
+.hero__caja .hero__subtitulo {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  font-style: bold;
+  font-size: 60px;
+  text-align: center;
+  color: white;
+}
+
+.sombraTitulos {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 100%;
+}
+
+@media (max-width: 425px) {
+  .hero__caja {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .hero__caja .hero__titulo {
+    font-size: 10px;
+  }
+  .navegacion__caja {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .navegacion__menu {
+    width: 100%;
+    display: inline;
+    margin: 0px;
+    padding: 0PX;
+  }
+  .navegacion__logo {
+    height: 40px;
+  }
+  .navegation__navbar {
+    margin: 0px;
+    padding: 0px;
+  }
+  .navegacion__menu
+.navegacion__item {
+    margin: 5px;
+  }
+  .navegacion__link {
+    font-size: 9px;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 320px) {
+  .hero__caja .hero__titulo {
+    font-size: 40px;
+    margin-left: 0%;
+  }
+  .hero__caja .hero__subtitulo {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .hero__caja .hero__titulo {
+    font-size: 40px;
+    margin-left: 0%;
+  }
+  .hero__caja .hero__subtitulo {
+    font-size: 30px;
+  }
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.inicio-titulo {
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 15px;
+  margin-left: 500px;
+  width: fit-content;
+}
+
+.seccion1-bienvenida {
+  background-image: url(../Imagenes/patern1.png);
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: fit-content;
+}
+
+.presentacion {
+  background-color: rgba(0, 0, 0, 0.571);
+  width: 100%;
+  height: 100%;
+}
+
+.inicio-parrafo {
+  color: whitesmoke;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  width: 100%;
+  line-height: 30px;
+  text-align: center;
+  margin-bottom: 100px;
+  padding: 1em;
+}
+
+@media (max-width: 768px) {
+  .inicio-parrafo {
+    font-size: 16px;
+  }
+}
+
+.seccion2-resumen {
+  width: 100%;
+  margin-top: 0px;
+  background-color: black;
+  height: fit-content;
+  padding-top: 5px;
+}
+
+.seccion2-titulo {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  border-radius: 3rem;
+  border: white;
+  border: solid;
+  box-shadow: 0 0 20px white;
+}
+
+.imagenesinicio-container {
+  width: 280px;
+  height: 280px;
+  margin-bottom: 60px;
+  transition: 1s;
+}
+
+.imagenesinicio:hover {
+  transform: scale(1);
+  border: white solid;
+  box-shadow: 0 0 20px white;
+}
+
+.imagenesinicio {
+  height: 90%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.imagenesinicio_a {
+  margin-right: 0px;
+  margin-top: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+}
+
+.footer {
+  background-color: orange;
+  height: 50px;
+  margin-top: 0px;
+  width: 100%;
+}
+
+.footer .footer__span {
+  color: black;
+  font-size: x-small;
+  text-align: center;
+}
+
+.footer__img {
+  height: 25px;
+  transition: transform 0.5s;
+}
+
+.footer__img:hover {
+  transform: rotate(360deg);
+}
+
+.cursos__fondo {
+  background-image: url(../Imagenes/pizarron4.jpg);
+  width: 100%;
+  padding: 0%;
+  background-size: cover;
+  margin-bottom: 0px;
+  height: fit-content;
+  margin-top: 0;
+}
+
+.cursos__fondo .cursos__titulo {
+  font-size: 32px;
+  margin-bottom: 100px;
+  width: 98%;
+  border-radius: 2rem;
+  border: white solid;
+  background-color: black;
+  margin-top: 0px;
+  position: relative;
+  top: 40px;
+  box-shadow: 0px 0px 30px white;
+}
+
+.cursos__caja {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cursos__marco {
+  background-color: rgba(5, 5, 5, 0.26);
+  width: 300px;
+  height: 450px;
+  margin-bottom: 100px;
+  transition: transform 1s;
+  overflow: hidden;
+  padding: 0;
+  box-shadow: 0px 0px 30px white;
+}
+
+.cursos__marco .cursos__nombre {
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 20px;
+}
+
+.cursos__imagen1 {
+  background-color: cadetblue;
+  width: 300px;
+  height: 300px;
+  background-image: url(../Imagenes/Cursos_HomeStudio.jpg);
+  background-size: cover;
+  margin-bottom: 10px;
+  transition: 1s;
+  overflow: hidden;
+}
+
+.cursos__imagen1:hover {
+  transform: scale(1.5);
+}
+
+.cursos__imagen2 {
+  background-color: cadetblue;
+  width: 300px;
+  height: 300px;
+  background-image: url(../Imagenes/Cursos_GrabacionDigital.jpg);
+  background-size: cover;
+  margin-bottom: 10px;
+  transition: 1s;
+}
+
+.cursos__imagen2:hover {
+  transform: scale(1.5);
+}
+
+.cursos__imagen3 {
+  background-color: cadetblue;
+  width: 300px;
+  height: 300px;
+  background-image: url(../Imagenes/Cursos_GrabacionAnalogica.jpg);
+  background-size: cover;
+  margin-bottom: 10px;
+  transition: 1s;
+}
+
+.cursos__imagen3:hover {
+  transform: scale(1.5);
+}
+
+.cursos__imagen4 {
+  background-color: cadetblue;
+  width: 300px;
+  height: 300px;
+  background-image: url(../Imagenes/Cursos_Video.jpg);
+  background-size: cover;
+  margin-bottom: 10px;
+  transition: 1s;
+}
+
+.cursos__imagen4:hover {
+  transform: scale(1.5);
+}
+
+.cursos__imagen5 {
+  background-color: cadetblue;
+  width: 300px;
+  height: 300px;
+  background-image: url(../Imagenes/Cursos_FotografiaAnalogica.jpg);
+  background-size: cover;
+  margin-bottom: 10px;
+  transition: 1s;
+}
+
+.cursos__imagen5:hover {
+  transform: scale(1.5);
+}
+
+.cursos__imagen6 {
+  background-color: cadetblue;
+  width: 300px;
+  height: 300px;
+  background-image: url(../Imagenes/Cursos_FotografiaDigital.jpg);
+  background-size: cover;
+  margin-bottom: 10px;
+  transition: 1s;
+}
+
+.cursos__imagen6:hover {
+  transform: scale(1.5);
+}
+
+.cursos__parrafo {
+  width: 300px;
+  color: white;
+  margin: 0%;
+  font-size: 14px;
+  text-align: center;
+}
+
+.clinica {
+  background-image: url(../Imagenes/pizarron4.jpg);
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.clinica .clinica__titulo {
+  background-color: black;
+  box-shadow: 0px 0px 30px white;
+  color: white;
+  width: 40%;
+  border: solid white;
+  border-radius: 2em;
+  margin-top: 20px;
+  margin-left: 30%;
+  margin-bottom: 20px;
+  animation-name: clinica;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  text-align: center;
+  padding: 5px;
+  padding-left: 30px;
+  display: flex;
+  justify-self: center;
+}
+
+.clinica .clinica__box {
+  width: 90%;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.clinica .clinica__box .clinica__img {
+  height: 200px;
+  width: 18%;
+  background-color: black;
+  border: solid white;
+  overflow: hidden;
+  object-fit: cover;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+@keyframes clinica {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.section-cronograma {
+  background: white;
+  background: linear-gradient(0deg, white 24%, #2a2727 100%);
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+table {
+  text-align: center;
+  border: solid black 1px;
+  width: 90%;
+}
+
+th {
+  color: orange;
+  font-size: 16px;
+  padding: 15px;
+}
+
+td {
+  color: black;
+  font-size: 14px;
+  padding: 3px;
+  border: solid black 1px;
+}
+
+.estiloNoticias {
+  color: black;
+  background-color: orange;
+  font-size: 18px;
+  width: 100%;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.noticias {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  border-radius: 2rem;
+  border: white;
+  box-shadow: 0px 0px 30px white;
+  border: solid;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.encabezado-noticias {
+  width: 100%;
+  background-color: black;
+  background-size: cover;
+  padding: 1em;
+  color: white;
+}
+
+.seccion-noticias {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: right;
+  background-color: black;
+  border: white solid;
+  height: fit-content;
+}
+
+.noticia-caja {
+  width: 95%;
+  margin-top: 20px;
+  background-color: black;
+  margin-bottom: 50px;
+  border: white solid;
+  transition: 1s;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.parrafo-noticias {
+  color: white;
+  width: 100%;
+  background-color: black;
+  margin-left: px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.audio {
+  object-position: center;
+  border: orange;
+  border-style: ridge;
+}
+
+.seccion-sudestando {
+  background-color: black;
+}
+
+.Sudestando {
+  display: grid;
+  grid-template-areas: "titulo titulo martini martini living" "playa playa martini martini living" "playa playa martini martini surf" "playa playa martini martini surf";
+  grid-template-columns: repeat(5, 2fr);
+  grid-template-rows: repeat(4, 2fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 700px;
+  border: white solid;
+  margin-bottom: 50px;
+}
+
+.sudestando-titulo {
+  grid-area: titulo;
+  margin-left: 15px;
+  margin-top: 0;
+  overflow: visible;
+  background-color: black;
+  color: white;
+  font-size: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  align-items: baseline;
+  position: relative;
+}
+
+.boton-sudestando {
+  background-color: black;
+  margin-left: 1em;
+}
+
+.menu-sudestando {
+  background-color: black;
+  max-width: 50px;
+}
+
+.item-sudestando {
+  color: white;
+}
+
+.sudestando-playa {
+  grid-area: playa;
+  border: white solid;
+  overflow: hidden;
+}
+
+.sudestando-martini {
+  grid-area: martini;
+  border: white solid;
+  overflow: hidden;
+}
+
+.sudestando-living {
+  grid-area: living;
+  border: white solid;
+  overflow: hidden;
+}
+
+.sudestando-surf {
+  grid-area: surf;
+  border: white solid;
+  overflow: hidden;
+}
+
+.no-disponible {
+  color: white;
+  text-align: center;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .disto {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo_marshall {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-1 {
+    width: 8.33333%;
+  }
+  .col-md-2 {
+    width: 16.66667%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33333%;
+  }
+  .col-md-5 {
+    width: 41.66667%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33333%;
+  }
+  .col-md-8 {
+    width: 66.66667%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-10 {
+    width: 83.33333%;
+  }
+  .col-md-11 {
+    width: 91.66667%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .col-lg-1 {
+    width: 8.33333%;
+  }
+  .col-lg-2 {
+    width: 16.66667%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33333%;
+  }
+  .col-lg-5 {
+    width: 41.66667%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33333%;
+  }
+  .col-lg-8 {
+    width: 66.66667%;
+  }
+  .col-lg-9 {
+    width: 75%;
+  }
+  .col-lg-10 {
+    width: 83.33333%;
+  }
+  .col-lg-11 {
+    width: 91.66667%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-xl-1 {
+    width: 8.33333%;
+  }
+  .col-xl-2 {
+    width: 16.66667%;
+  }
+  .col-xl-3 {
+    width: 25%;
+  }
+  .col-xl-4 {
+    width: 33.33333%;
+  }
+  .col-xl-5 {
+    width: 41.66667%;
+  }
+  .col-xl-6 {
+    width: 50%;
+  }
+  .col-xl-7 {
+    width: 58.33333%;
+  }
+  .col-xl-8 {
+    width: 66.66667%;
+  }
+  .col-xl-9 {
+    width: 75%;
+  }
+  .col-xl-10 {
+    width: 83.33333%;
+  }
+  .col-xl-11 {
+    width: 91.66667%;
+  }
+  .col-xl-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .contacto__redes {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .formulario__contenedor {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  td {
+    font-size: 10px;
+  }
+  .clinica .clinica__titulo {
+    border-radius: 0;
+    width: 60%;
+    margin-left: 20%;
+  }
+  .clinica__img {
+    display: none;
+  }
+}
+
+.titulo-seccion {
+  color: white;
+  font-size: 50px;
+  background-color: black;
+  text-align: center;
+}
+
+.seccion1-caja {
+  background-image: url(../Imagenes/Marshall.jpg);
+  background-size: cover;
+  overflow: hidden;
+  color: whitesmoke;
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 50px;
+  border: white solid;
+}
+
+.articulo1-caja {
+  margin-bottom: 100px;
+  height: fit-content;
+  display: flex;
+}
+
+.articulo-titulo {
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.86);
+  box-shadow: 0px 0px 30px white;
+  padding: 10px;
+  height: 50px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+
+.nota {
+  background-color: chocolate;
+  width: 100%;
+  display: flex;
+  height: fit-content;
+}
+
+.imagen-caja {
+  overflow: hidden;
+  background-size: cover;
+  width: fit-content;
+  height: fit-content;
+}
+
+.parrafo-caja {
+  background-color: rgba(32, 30, 30, 0.86);
+  padding: 10px;
+  height: fit-content;
+  margin-top: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.caja-aside {
+  margin-top: 270px;
+  margin-left: 50px;
+  width: 350px;
+  height: fit-content;
+  background-color: rgba(32, 30, 30, 0.86);
+}
+
+.aside {
+  margin-top: 0px;
+}
+
+.aside-titulo {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.86);
+  padding: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.aside-list {
+  padding: 20px;
+}
+
+.discos {
+  list-style: square;
+}
+
+.articulo2-caja {
+  margin-bottom: 50px;
+  height: 300px;
+  width: 80%;
+  position: relative;
+}
+
+.articulo2-titulo {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.76);
+  position: relative;
+  top: 30px;
+  left: 400px;
+  width: 450px;
+  padding: 10px;
+}
+
+.imagen-caja2 {
+  background-color: gray;
+  background-image: url(../Imagenes/Articulos_Faraones.jpg);
+  background-size: cover;
+  overflow: hidden;
+  width: 400px;
+  height: 310px;
+  position: absolute;
+  top: 30px;
+}
+
+.parrafo-caja2 {
+  background-color: rgba(32, 30, 30, 0.86);
+  padding: 10px;
+  position: relative;
+  width: 450px;
+  height: 250px;
+  top: 25px;
+  left: 400px;
+}
+
+.disto {
+  color: white;
+  border: white solid;
+  margin-bottom: 80px;
+  height: fit-content;
+  width: 100%;
+  background: linear-gradient(0deg, white 10%, #2a2727 93%);
+  margin-bottom: 20px;
+}
+
+.disto .disto__caja {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-top: 20px;
+  height: fit-content;
+}
+
+.disto__col__titulo {
+  height: 50px;
+  width: 15%;
+  background-color: black;
+  border: white solid;
+  border-radius: 2em;
+}
+
+.disto__col__titulo:hover {
+  box-shadow: 0 0 8px white;
+}
+
+.disto__col-1 {
+  height: 50px;
+  width: 15%;
+  background-color: rgba(0, 0, 0, 0.733);
+  border: 1px white solid;
+}
+
+.disto__col-2 {
+  height: 100px;
+  width: 15%;
+  background-color: rgba(0, 0, 0, 0.733);
+  border: 1px white solid;
+}
+
+.disto__col-3 {
+  height: 150px;
+  width: 15%;
+  background-color: rgba(0, 0, 0, 0.733);
+  border: 1px white solid;
+}
+
+.disto__col-4 {
+  height: 200px;
+  width: 15%;
+  background-color: rgba(0, 0, 0, 0.733);
+  border: 1px white solid;
+}
+
+.disto__col-5 {
+  height: 250px;
+  width: 15%;
+  background-color: rgba(0, 0, 0, 0.733);
+  border: 1px white solid;
+}
+
+.seccion-marshall {
+  margin-top: 0;
+  padding: 0;
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.seccion2-caja {
+  background: white;
+  background: linear-gradient(0deg, white 10%, #2a2727 93%);
+  color: whitesmoke;
+  height: fit-content;
+  width: 100%;
+  margin: auto;
+  margin-top: 50px;
+  border: white solid;
+}
+
+.seccion3-caja {
+  background: white;
+  color: whitesmoke;
+  height: fit-content;
+  width: 100%;
+  margin: auto;
+  margin-top: 0px;
+  border: white solid;
+}
+
+.carousel-item img {
+  height: 300px;
+  object-fit: contain;
+}
+
+.logo_marshall {
+  margin-right: 0px;
+  padding-right: 0px;
+}
+
+.img-gear {
+  transition: 2s;
+}
+
+.img-gear :hover {
+  transform: scale(1.2);
+}
+
+/*----------- Publicidad MarshaLL-----*/
+.marshall1 {
+  width: 20%;
+  height: 300px;
+  background-color: blanchedalmond;
+  background-image: url(../Imagenes/gear_marshall.guvnor.jpg);
+  background-size: cover;
+}
+
+.marshall2 {
+  width: 25%;
+  height: 300px;
+  background-color: blanchedalmond;
+  background-image: url(../Imagenes/gear_marshall_logo_blanco.jpg);
+  background-size: cover;
+}
+
+.marshall3 {
+  width: 20%;
+  height: 300px;
+  background-color: blanchedalmond;
+  background-image: url(../Imagenes/gear_marshall_bluesbreaker.jpg);
+  background-size: cover;
+}
+
+.texto-pedales1 {
+  color: black;
+  background-color: white;
+  width: 150px;
+  position: absolute;
+  top: 1850px;
+  left: 310px;
+  font-size: 12px;
+}
+
+.texto-pedales2 {
+  color: black;
+  background-color: white;
+  width: 150px;
+  position: absolute;
+  top: 1850px;
+  left: 740px;
+  font-size: 12px;
+}
+
+.container {
+  margin-top: 20px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.contacto {
+  background: white;
+  background: linear-gradient(0deg, white 24%, #2a2727 93%);
+  padding-bottom: 40px;
+}
+
+.contacto__contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.contacto__redes {
+  display: flex;
+  flex-direction: column;
+  background-color: yellow;
+  border: white solid;
+}
+
+.formulario__contenedor {
+  color: white;
+}
+
+.Formulario {
+  border: solid white;
+  width: 100%;
+  height: fit-content;
+  padding: 0%;
+}
+
+.datos-formulario {
+  text-align: center;
+}
+
+.contacto-label {
+  color: whitesmoke;
+  margin-left: 10px;
+  width: 150px;
+  padding: 5px;
+}
+
+textarea {
+  background-color: transparent;
+  color: black;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  width: 80%;
+  height: 180px;
+  margin-top: 20px;
+}
+
+div > input {
+  color: black;
+  background-color: #a5a8a8;
+  border: white solid;
+  margin-left: 5px;
+  padding: 5px;
+}
+
+div > select {
+  color: black;
+  background-color: #a5a8a8;
+  border: white solid;
+  margin-left: 10px;
+  padding: 5px;
+}
+
+Form > Div {
+  color: white;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+h4 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+form > button {
+  margin-top: 15px;
+  margin-left: 50px;
+  margin-right: 15px;
+  color: white;
+  background-color: teal;
+  padding: 10px;
+}
+
+.reset {
+  margin-top: 15px;
+  margin-left: 50px;
+  margin-right: 20px;
+  color: white;
+  background-color: teal;
+  padding: 10px;
+}
+
+.vox {
+  background-image: url(../Imagenes/Marshall.jpg);
+  background-repeat: repeat-y;
+  background-position: right top;
+}
+
+@media (max-width: 768px) {
+  .disto {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 150px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo_marshall {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-1 {
+    width: 8.33333%;
+  }
+  .col-md-2 {
+    width: 16.66667%;
+  }
+  .col-md-3 {
+    width: 25%;
+  }
+  .col-md-4 {
+    width: 33.33333%;
+  }
+  .col-md-5 {
+    width: 41.66667%;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-7 {
+    width: 58.33333%;
+  }
+  .col-md-8 {
+    width: 66.66667%;
+  }
+  .col-md-9 {
+    width: 75%;
+  }
+  .col-md-10 {
+    width: 83.33333%;
+  }
+  .col-md-11 {
+    width: 91.66667%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .col-lg-1 {
+    width: 8.33333%;
+  }
+  .col-lg-2 {
+    width: 16.66667%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33333%;
+  }
+  .col-lg-5 {
+    width: 41.66667%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33333%;
+  }
+  .col-lg-8 {
+    width: 66.66667%;
+  }
+  .col-lg-9 {
+    width: 75%;
+  }
+  .col-lg-10 {
+    width: 83.33333%;
+  }
+  .col-lg-11 {
+    width: 91.66667%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-xl-1 {
+    width: 8.33333%;
+  }
+  .col-xl-2 {
+    width: 16.66667%;
+  }
+  .col-xl-3 {
+    width: 25%;
+  }
+  .col-xl-4 {
+    width: 33.33333%;
+  }
+  .col-xl-5 {
+    width: 41.66667%;
+  }
+  .col-xl-6 {
+    width: 50%;
+  }
+  .col-xl-7 {
+    width: 58.33333%;
+  }
+  .col-xl-8 {
+    width: 66.66667%;
+  }
+  .col-xl-9 {
+    width: 75%;
+  }
+  .col-xl-10 {
+    width: 83.33333%;
+  }
+  .col-xl-11 {
+    width: 91.66667%;
+  }
+  .col-xl-12 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .contacto__redes {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .formulario__contenedor {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  td {
+    font-size: 10px;
+  }
+  .clinica .clinica__titulo {
+    border-radius: 0;
+    width: 60%;
+    margin-left: 20%;
+  }
+  .clinica__img {
+    display: none;
+  }
+}
