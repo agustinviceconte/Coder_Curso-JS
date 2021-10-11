@@ -1,0 +1,11 @@
+usar elementos del mismo tipo
+
+Metodos y propiedades
+
+length: cantidad de elementos del array
+toString
+push : agrega elementos .push(elemento1,elemento2)
+join("*") :permite elegir el caracter separador
+concat
+slice : array(1,3); NO SE USA!!!!
+
