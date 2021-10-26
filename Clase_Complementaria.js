@@ -18,6 +18,8 @@ class Curso {
     //Métodos del objeto
     verDatosCurso() {
 
+        //console.log(this);
+
         document.write("<ul>");
         document.write("<li>Nombre: " + this.nombre + "</li>");
         document.write("<li>Tipo: " + this.tipo + "</li>");
@@ -111,6 +113,20 @@ function verClases() {
 
 }
 
+function buscarCurso(datofiltro, cursos){
+
+
+    const cursosEncontrados = cursos.filter(curso => curso.nombre.includes(datofiltro)|| curso.tipo.includes(datofiltro));
+
+
+    return cursosEncontrados;
+
+}
+function devolverFavorito(nombreCursoFavorito, cursos){
+    return cursos.find(curso => curso.nombre == nombreCursoFavorito)
+}
+
+
 //Declaración array "cursos"
 let cursos = [];
 let agregarCurso = "";
@@ -135,3 +151,16 @@ do {
 for (const curso of cursos) {
     curso.verDatosCurso();
 }
+
+let cursoBuscado = prompt("Ingrese nombre de curso o clase a buscar");
+let cursosEncontrados = buscarCurso(cursoBuscado,cursos)
+console.log(cursosEncontrados); 
+
+let cursofavorito = prompt("Ingrese el nombre del curso favorito");
+const favoritos = [];
+let favorita = devolverFavorito(cursofavorito, cursos);
+if (favorita){
+    favoritos.push(favorita);
+}
+
+console.log(favoritos);

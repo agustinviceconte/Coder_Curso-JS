@@ -1,0 +1,184 @@
+00:14:07	Tomás Mauricio Battou:	ok
+00:14:11	Carlos Anibal Tejada:	si
+00:14:45	Diego F Miquel:	Buenisimo, Lo mejor
+00:14:48	Sandra Baronetto:	Hola, buenas tardes
+00:24:28	Sandra Baronetto:	no
+00:24:30	Carlos Anibal Tejada:	no todo en orden
+00:24:31	Florencia Ayelén Villafañe:	no
+00:33:12	Leonardo Bruno Emmanuel Rolon:	api
+00:33:12	Sandra Baronetto:	http
+00:33:23	Carlos Anibal Tejada:	http
+00:33:25	[Tutor] Luis Laverde:	exactamente
+00:35:43	[TUTOR] Lucio Benedettelli:	La versión mas importante que vamos a ver en el curso es la ES6 ya que fue la versión que más cambios productos trajo. En el curso usaremos mucho de eso.
+00:48:13	Enrique Gaetán:	En que caso utilizaríamos un alert y el console log?
+00:48:38	[TUTOR] Lucio Benedettelli:	El alert es para mostrarle algo al usuario por lo general. El console.log se usa mas para debuggear
+00:48:43	[TUTOR] Lucio Benedettelli:	O para probar cosas como programadores
+00:48:55	Enrique Gaetán:	Genial! Gracias Lucio
+00:49:34	[Tutor] Luis Laverde:	recuerden que todo lo explicado en esta y todas las clases lo pueden volver a ver cuando la grabación sea puesta a disposición en el canal de la Comisión desde la nube, es decir, el mismo día que se dé la clase
+00:49:43	Carlos Anibal Tejada:	si
+00:49:44	Sandra Baronetto:	si, si
+00:49:46	Enrique Gaetán:	Si
+00:49:52	Dasanbiagio Diego Nicolas:	si
+00:49:54	Diego Montes:	si
+00:54:28	[TUTOR] Lucio Benedettelli:	https://www.neoguias.com/tipos-notacion-nombres/Esto más bien es por buenas practicas. Por lo general se acostumbra a declarar las variables con minúsculas y luego mayusculas o también con guiones bajos.
+00:54:59	Marcelo Diaz Anido:	const siempre es mayusculas?
+00:55:41	[TUTOR] Lucio Benedettelli:	Va a funcionar igual solo es por buenas practicas exacto
+01:02:03	[TUTOR] Lucio Benedettelli:	Lo mismo podrían hacer con el DNI. Como su DNI es único pueden asignarle a const ese valor. La particularidad de const es que el valor es fijo
+01:02:24	[Tutor] Luis Laverde:	Pueden profundizar el concepto de variables en la documentación oficial acá:https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/Variables
+01:02:51	Sandra Baronetto:	genial, gracias!
+01:03:12	Marcelo Diaz Anido:	JS maneja el concepto de Integer y Float? o todo es "number"?
+01:03:22	[Tutor] Luis Laverde:	si, lo maneja
+01:03:46	[TUTOR] Lucio Benedettelli:	Después más adelante vamos a ver como parsear valores y lo vamos a explicitar más Marce. Pero si maneja los tipos de números
+01:03:47	[Tutor] Luis Laverde:	hay métodos propios del lenguaje para eso
+01:04:09	[Tutor] Luis Laverde:	exacto, tal cual lo dice Lucio
+01:04:10	[TUTOR] Lucio Benedettelli:	Por ejemplo vos podes trabajar con números enteros solamente o solo con decimales
+01:04:29	Carlos Anibal Tejada:	estamos bien
+01:04:30	Sandra Baronetto:	se entendió
+01:04:31	Diego F Miquel:	Todo bien
+01:04:35	Marcelo Grandinelli:	vamos bien
+01:04:36	Diego Montes:	Algo voy entendiendo...
+01:04:45	Leonardo Bruno Emmanuel Rolon:	si
+01:07:46	[TUTOR] Lucio Benedettelli:	concatenar es unir las palabras. Por ejemplo si tenemos una variable que se llama "hola" le concatenamos para tener una frase como "hola lucio"!
+01:08:28	Sandra Baronetto:	si si
+01:08:32	Diego Montes:	si
+01:09:08	Sandra Baronetto:	let nombre = Homero;
+01:09:17	[TUTOR] Lucio Benedettelli:	Acordate que es entre comillas el valor Sandra
+01:09:28	Carlos Anibal Tejada:	let edad=30;}
+01:09:36	Marcelo Diaz Anido:	let nombre = "Homero";      // stringlet apellido = "simpsons";  // stringlet edad = 35;              // integer
+01:09:39	[TUTOR] Lucio Benedettelli:	Porque si no lo que estás haciendo ahí es a la variable nombre asignarle el valor de la variable homero
+01:09:43	Carlos Anibal Tejada:	let edad = 30;
+01:09:46	[TUTOR] Lucio Benedettelli:	Los strings siempre van en comillas
+01:09:58	Luis Miguel Graglia:	36
+01:09:59	Luis Miguel Graglia:	jajaja
+01:10:05	Sandra Baronetto:	si, gracias!
+01:10:11	[Tutor] Luis Laverde:	exacto Marcelo 🤘
+01:10:39	Marcelo Diaz Anido:	El console.log puede ser multilínea?
+01:11:02	Mariela Insaurralde:	el numero esta entre comillas para que se pueda concatenar?
+01:11:14	Mariela Insaurralde:	osea no se pueden concatenar diferentes tipos de variables?
+01:11:20	Sandra Baronetto:	hay que linkear el archivo js al index.html
+01:11:26	Tomás Mauricio Battou:	no, porque estas viendo la pagina index
+01:11:26	[TUTOR] Lucio Benedettelli:	Si eso si
+01:11:32	[TUTOR] Lucio Benedettelli:	Siempre y cuando sean strings
+01:12:11	Carlos Anibal Tejada:	no esta vinculado el archivo
+01:13:17	[TUTOR] Lucio Benedettelli:	Despues más adelante vamos a ver que podes vincular varios scripts a un mismo HTML
+01:14:15	Sandra Baronetto:	no
+01:14:47	Diego F Miquel:	Victor bajate un poquito la cámara 😀
+01:15:05	[Tutor] Luis Laverde:	más adelante van a poder modular su código en el proyecto y poner el código en varios archivos .js por buenas prácticas
+01:15:09	[PROFE] - Victor Di Lena:	jajaja, gracias por avisar! ahi la baje
+01:15:50	[TUTOR] Lucio Benedettelli:	Documentación de JavaScript en estas paginas van a poder encontrar todo lo que necesiten:https://www.w3schools.com/https://developer.mozilla.org/es/
+01:16:42	[Tutor] Luis Laverde:	Excelente Lu 🙌
+01:27:54	Marcelo Diaz Anido:	ReactJS lo vemos después de este curso
+01:30:07	[Tutor] Luis Laverde:	es correcto Marce
+01:30:33	Marcelo Diaz Anido:	👍
+01:34:12	Diego F Miquel:	Sí ingreso un Nro, la variable queda como numérica?
+01:34:22	Diego F Miquel:	O sigue siendo String?
+01:35:04	[TUTOR] Lucio Benedettelli:	Lo transforma en un string porque solo acepta strings. Para trabajar con números deberías parsearlo. Es decir transformar ese dato a numero
+01:35:11	[Tutor] Luis Laverde:	el prompt por defecto te va a devolver un strig
+01:35:26	[Tutor] Luis Laverde:	para que sea un nuero debes parsearlo como dice Lu
+01:35:50	[TUTOR] Lucio Benedettelli:	Lo que deberíamos hacer para trabajar con números es transformar el string a un dato numérico. Más adelante lo vamos a ver
+01:36:00	Diego F Miquel:	Gracias
+01:36:03	Maximiliano Giusto:	parsear o castear?
+01:36:11	[Tutor] Luis Laverde:	parsear
+01:36:13	Sandra Baronetto:	si si
+01:36:15	Florencia Ayelén Villafañe:	sisi
+01:36:15	Carlos Anibal Tejada:	si
+01:36:19	Maximiliano Giusto:	Gracias
+01:36:25	[TUTOR] Lucio Benedettelli:	parseo
+01:38:24	[TUTOR] Lucio Benedettelli:	Te termina concatenando porque los toma como cadena de texto.
+01:38:25	[TUTOR] Lucio Benedettelli:	Exacto
+01:38:41	[Tutor] Luis Laverde:	dejen a Victor hacer su sorpresa XD
+01:41:08	[Tutor] Luis Laverde:	va adar un error pues daría NaN (Not a Nmber)
+01:44:18	Diego Montes:	jaja
+01:44:21	[Tutor] Luis Laverde:	jajaja
+01:44:51	[TUTOR] Lucio Benedettelli:	Otra forma de hacer el parseo es pasar la palabra Number. La diferencia entre Number e Int. Es que Number puede ser tanto entero como decimales.
+01:45:01	Diego Montes:	Si
+01:45:03	Sandra Baronetto:	si si
+01:45:04	Carlos Anibal Tejada:	si
+01:45:34	Diego F Miquel:	Es todo parecido a cualquier lenguaje, incliudo Basic
+01:45:51	Mariela Insaurralde:	y si number abarca ambos? conviene usar ese en lugar de los otros
+01:46:02	Mariela Insaurralde:	o tiene algúna desventaa?
+01:46:06	[TUTOR] Lucio Benedettelli:	Eso pasa según el gusto del programador
+01:46:10	[TUTOR] Lucio Benedettelli:	La única diferencia es esa
+01:46:14	[TUTOR] Lucio Benedettelli:	Number sirve para enteros y decimales
+01:46:22	[TUTOR] Lucio Benedettelli:	En cambio parseInt solo para enteros y parseFloat solo para decimales
+01:47:02	[TUTOR] Lucio Benedettelli:	Si Diego. El tema es que JS es muy permisivo. Por ejemplo en otro lenguaje vos le tenés que especificar el tipo de dato. Eso también esta bueno pero a veces es un arma de doble filo!
+01:47:17	Florencia Ayelén Villafañe:	instrucciones secuenciales
+01:47:23	Agustin Viceconte:	Una serie de pasos
+01:47:26	Cristian Ariel Gonzalez Cuba:	proceso
+01:47:30	Marcos Diaz Carmona:	conjunto de intrucciones para resolver un problema
+01:47:32	Diego Montes:	Es un pequeño proceso?
+01:48:08	Sandra Baronetto:	una salida
+01:48:09	Diego Montes:	Da un resultado
+01:49:45	Sandra Baronetto:	si si
+01:49:46	Diego Montes:	si
+01:49:48	Carlos Anibal Tejada:	si
+01:49:50	Agustin Viceconte:	Si
+01:49:51	Diego Fiorda:	si
+01:51:48	Carlos Anibal Tejada:	si
+01:51:55	Carlos Anibal Tejada:	algún for
+01:52:16	Carlos Anibal Tejada:	array
+01:52:23	Agustin Viceconte:	un array
+01:53:04	[Tutor] Luis Laverde:	claro por ahora no hemos llegado allí en conceptos pero eso sería lo ideal... muy bien
+01:54:53	Carlos Anibal Tejada:	mayuscula
+01:55:26	[Tutor] Luis Laverde:	👍
+01:56:44	[Tutor] Luis Laverde:	si con \n
+01:56:52	[TUTOR] Lucio Benedettelli:	/n si
+01:56:57	Leonardo Bruno Emmanuel Rolon:	br
+01:56:59	[Tutor] Luis Laverde:	en la consola no creo
+01:57:13	[Tutor] Luis Laverde:	digo por pantalla en un alert
+01:57:14	Carlos Anibal Tejada:	es con la otra barra
+01:57:18	Carlos Anibal Tejada:	\n
+01:57:21	[TUTOR] Lucio Benedettelli:	Podes usar otro tipo de console tambíen
+01:57:26	[TUTOR] Lucio Benedettelli:	Hay más console además del log
+01:57:46	Diego Montes:	alt 92
+01:58:43	Diego Montes:	Se entiende
+02:01:44	Diego Montes:	se tienen que modificar las variables no?
+02:01:48	[TUTOR] Lucio Benedettelli:	Hay algunas extensiones que pueden instalar también como Prettier que hace que el formato de su código sea mas amigable
+02:02:05	Mariela Insaurralde:	hay que calcularlo
+02:03:20	Leonardo Bruno Emmanuel Rolon:	dividido
+02:03:27	Leonardo Bruno Emmanuel Rolon:	para qje te de el descuento
+02:03:58	Mariela Insaurralde:	(1-DESCUENTO) seria no?
+02:04:22	Marcelo Diaz Anido:	claro
+02:04:51	[Tutor] Luis Laverde:	exactamente Mari
+02:05:59	[Tutor] Luis Laverde:	de hecho en programación generalmente distintos caminos pueden llevar un mismo destino, es decir, esto tendría muchas formas distintas de hacerse
+02:06:02	[TUTOR] Lucio Benedettelli:	Fijense como a través de un solo ejercicio pudimos llegar a distintas soluciones. Se pueden hacer de muchas formas. Todo va a depender de como lo encaren ustedes
+02:06:13	Sandra Baronetto:	faltaría cambiar NumeroDescuento
+02:06:16	[Tutor] Luis Laverde:	tal cual Lu
+02:06:41	Agustin Viceconte:	si
+02:07:14	[TUTOR] Lucio Benedettelli:	Recuerden que las clases quedarán grabadas. Por lo cual pueden volver a mirarlo las veces que lo necesiten!
+02:07:28	[Tutor] Luis Laverde:	👍
+02:07:44	Diego Montes:	perfecto
+02:08:31	[TUTOR] Lucio Benedettelli:	En ese sentido los desafíos son bastantes libres. Sientanse comodos de elegir los que les guste más
+02:09:11	[TUTOR] Lucio Benedettelli:	Number incluye enteros y decimales
+02:09:13	[TUTOR] Lucio Benedettelli:	Exactamente
+02:09:18	[Tutor] Luis Laverde:	exacto...
+02:09:50	Leonardo Bruno Emmanuel Rolon:	claro pero además ponele que tenes un string y necesitas convertir en number
+02:09:52	[Tutor] Luis Laverde:	con 4 o 5 líneas de código no va a haber diferencia
+02:10:01	[TUTOR] Lucio Benedettelli:	Number
+02:10:02	[TUTOR] Lucio Benedettelli:	Aspi
+02:10:26	[TUTOR] Lucio Benedettelli:	Es que la única diferencia es que Number incluye enteros y decimales. En cambio parseInt solo números enteros
+02:10:27	Carlos Anibal Tejada:	si si
+02:10:29	[TUTOR] Lucio Benedettelli:	En la practica es lo mismo
+02:10:33	Sandra Baronetto:	si si
+02:11:11	Marcelo Diaz Anido:	El que use alert() queda descalificado :P
+02:11:19	Mariela Insaurralde:	jajajaja
+02:11:25	[TUTOR] Lucio Benedettelli:	Acostúmbrense a linkear los archivos en sus carpetas
+02:11:31	[TUTOR] Lucio Benedettelli:	Porque en sus proyectos lo van a tener que hacer asi
+02:11:33	Mariela Insaurralde:	voy a hacer un bucle de alert jajaja
+02:11:43	Marcelo Diaz Anido:	😁
+02:11:44	[TUTOR] Lucio Benedettelli:	Es principios de buenas practicas. Mientras menos mañas tengan mejor jaja
+02:11:45	[Tutor] Luis Laverde:	Acá pueden profundizar sobre lo del método propio de JavaScript que dijimos:https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Number
+02:11:56	[TUTOR] Lucio Benedettelli:	https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Math
+02:12:42	[Tutor] Luis Laverde:	javascript tiene muchos métodos propios para usar con números... solo queda investigar en la docu oficial
+02:12:54	Sandra Baronetto:	todo bien
+02:12:55	[TUTOR] Lucio Benedettelli:	Cualquier cosa consulten que estamos para ayudarlos
+02:13:23	Sandra Baronetto:	perfecto
+02:13:25	Agustin Viceconte:	Perfecto
+02:13:25	Carlos Anibal Tejada:	perfecto
+02:13:32	Diego Fiorda:	muchas gracias
+02:13:32	Florencia Ayelén Villafañe:	muchas gracias !
+02:13:33	[Tutor] Luis Laverde:	ueno, gracias por sus asistencia
+02:13:35	Florencia Ayelén Villafañe:	nos vemossss
+02:13:35	Lucía Seba:	gracias, nos vemos
+02:13:36	Ailin Ojeda Pytel:	Buenas noches!!
+02:13:36	Agustin Viceconte:	Buenas noches
