@@ -1,0 +1,67 @@
+//-------Página Articulos------------------------
+
+
+@media(max-width:768px) {
+    .disto {
+        display: none;
+    }
+}
+
+
+
+//Carrousel----------
+
+@media(max-width:768px) {
+    .carousel-item img {
+        height: 150px;
+    }
+}
+
+@media(max-width: 768px) {
+    .logo_marshall {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    @include generarcolumnas('md');
+}
+
+@media (min-width: 1024px) {
+    @include generarcolumnas('lg');
+}
+
+@media (min-width: 1200px) {
+    @include generarcolumnas('xl');
+}
+
+//-----Página contacto
+@media (max-width: 768px) {
+    .contacto__redes {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .formulario__contenedor {
+        width: 100%;
+    }
+}
+
+//--------Página Cursos-----------
+@media(max-width: 425px) {
+    td {
+        font-size: 10px;
+    }
+
+    .clinica .clinica__titulo {
+        border-radius: 0;
+        width: 60%;
+        margin-left: 20%;
+
+    }
+
+    .clinica__img {
+        display: none;
+    }
+}

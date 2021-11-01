@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Entrega Clase 9</title>
+  </head>
+  <body>
+    <div style="width:50%";>
+    <form style="background-color: #c2d8d8; height: 300px;"> 
+      <br>
+      <br>
+      <label style="margin-left: 20px;" for="">Nombre</label>
+      <input style="margin-left: 20px;" type="text" id="nombre" />
+      <br />
+      <br />
+      <label style="margin-left: 20px;" for="">Email:</label>
+      <input style="margin-left: 20px;"  type="text" id="nombre" />
+      <p>---------------------------------------------------------------------------------------------</p>
+      <p>
+        <h2 style="margin-left: 30px;">Seleccione un curso</h2>
+        <select id="cursos" style="margin-left: 20px;">
+          <option value="">Cursos   </option>
+          <option value="grabacionAnalogica">Grabación Analógica</option>
+          <option value="grabacionDigital">Grabación Digital</option>
+          <option value="fotografia">Fotografía</option>
+        </select>
+      </p>
+    
+    <br />  
+    <button id="btnAceptar" type="button">Aceptar</button>
+    <br />
+    <br/>
+    
+    <div  id="contenedorCurso" >
+      <ul id="cursoSelect" style="border-bottom: solid; padding: 20px;z-index: 4;" ></ul>
+    </div>
+
+  </form>
+</div>
+
+
+    <script src="contacto.js"></script>
+  </body>
+</html>

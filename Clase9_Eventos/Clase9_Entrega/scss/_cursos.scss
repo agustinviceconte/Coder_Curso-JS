@@ -1,0 +1,232 @@
+@import"_variables";
+
+.cursos__fondo {
+    background-image: url(../Imagenes/pizarron4.jpg);
+    width: 100%;
+    padding: 0%;
+    background-size: cover;
+    margin-bottom: 0px;
+    height: fit-content;
+    margin-top: 0;
+
+    .cursos__titulo {
+        font-size: 32px;
+        margin-bottom: 100px;
+        width: 98%;
+        border-radius: 2rem;
+        border: white solid;
+        background-color: black;
+        margin-top: 0px;
+        position: relative;
+        top: 40px;
+        box-shadow: $sombracaja;
+    }
+}
+
+.cursos__caja {
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cursos__marco {
+    background-color: rgba(5, 5, 5, 0.26);
+    width: 300px;
+    height: 450px;
+    margin-bottom: 100px;
+    transition: transform 1s;
+    overflow: hidden;
+    padding: 0;
+    box-shadow: $sombracaja;
+
+    .cursos__nombre {
+        color: white;
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+.cursos__imagen1 {
+    background-color: cadetblue;
+    width: 300px;
+    height: 300px;
+    background-image: url(../Imagenes/Cursos_HomeStudio.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+    transition: 1s;
+    overflow: hidden;
+}
+
+.cursos__imagen1:hover {
+    transform: scale(1.5);
+}
+
+
+.cursos__imagen2 {
+    background-color: cadetblue;
+    width: 300px;
+    height: 300px;
+    background-image: url(../Imagenes/Cursos_GrabacionDigital.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+    transition: 1s;
+}
+
+.cursos__imagen2:hover {
+    transform: scale(1.5);
+}
+
+.cursos__imagen3 {
+    background-color: cadetblue;
+    width: 300px;
+    height: 300px;
+    background-image: url(../Imagenes/Cursos_GrabacionAnalogica.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+    transition: 1s;
+}
+
+.cursos__imagen3:hover {
+    transform: scale(1.5);
+}
+
+.cursos__imagen4 {
+    background-color: cadetblue;
+    width: 300px;
+    height: 300px;
+    background-image: url(../Imagenes/Cursos_Video.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+    transition: 1s;
+}
+
+.cursos__imagen4:hover {
+    transform: scale(1.5);
+}
+
+.cursos__imagen5 {
+    background-color: cadetblue;
+    width: 300px;
+    height: 300px;
+    background-image: url(../Imagenes/Cursos_FotografiaAnalogica.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+    transition: 1s;
+}
+
+.cursos__imagen5:hover {
+    transform: scale(1.5);
+}
+
+.cursos__imagen6 {
+    background-color: cadetblue;
+    width: 300px;
+    height: 300px;
+    background-image: url(../Imagenes/Cursos_FotografiaDigital.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+    transition: 1s;
+}
+
+.cursos__imagen6:hover {
+    transform: scale(1.5);
+}
+
+.cursos__parrafo {
+    width: 300px;
+    color: white;
+    margin: 0%;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.clinica {
+    background-image: url(../Imagenes/pizarron4.jpg);
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+
+    .clinica__titulo {
+        background-color: black;
+        box-shadow: $sombracaja;
+        color: white;
+        width: 40%;
+        border: solid white;
+        border-radius: 2em;
+        margin-top: 20px;
+        margin-left: 30%;
+        margin-bottom: 20px;
+        animation-name: clinica;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        text-align: center;
+        padding: 5px;
+        padding-left: 30px;
+        display: flex;
+        justify-self: center;
+    
+    }
+
+    .clinica__box {
+        width: $width;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+
+        .clinica__img {
+            height: 200px;
+            width: $width/5;
+            background-color: black;
+            border: solid white;
+            overflow: hidden;
+            object-fit: cover;
+            padding-left: 0;
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@keyframes clinica {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.section-cronograma {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 24%, rgba(42, 39, 39, 1) 100%);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+
+table {
+    text-align: center;
+    border: solid black 1px;
+    width: $width;
+}
+
+th {
+    color: orange;
+    font-size: 16px;
+    padding: 15px;
+}
+
+
+td {
+    color: black;
+    font-size: 14px;
+    padding: 3px;
+    border: solid black 1px;
+}
+
