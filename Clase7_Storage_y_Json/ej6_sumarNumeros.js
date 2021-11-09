@@ -1,4 +1,4 @@
-function sumar(numero1, numero2){
+ function sumar(numero1, numero2){
     return numero1 + numero2;
 }
 
@@ -7,12 +7,13 @@ function guardarEnLocalStorage(clave, valor){
 }
 
 function obtenerDelStorage(clave){
-    return localStorage.getItem(clave);
+    return localStorage.getItem(clave); 
 }
 
 let primerNumero = Number(prompt("Primer número"));
 let segundoNumero = Number(prompt("Segundo número"));
+const CLAVE_A_PEDIR= "suma";
 
-guardarEnLocalStorage("suma", sumar(primerNumero,segundoNumero));
+guardarEnLocalStorage(CLAVE_A_PEDIR, sumar(primerNumero,segundoNumero));
 
-document.write("La suma es: " + obtenerDelStorage("suma"))
+document.write("La suma es: " + obtenerDelStorage(CLAVE_A_PEDIR));

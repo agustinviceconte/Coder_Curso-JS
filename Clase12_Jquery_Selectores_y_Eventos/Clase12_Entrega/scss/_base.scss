@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+// --------------------------------
+
+body {
+
+    background-color: rgb(36, 48, 48);
+}
+
+// ------Generar columnas---
+
+@mixin generarcolumnas ($breakpoint) {
+    @for $i from 1 through 12 {
+        @if $breakpoint=='mb' {
+            .col-#{$i} {
+                width: 100% /12 * $i;
+            }
+        }
+
+        @else {
+            .col-#{$breakpoint}-#{$i} {
+                width: 100% / 12 * $i;
+            }
+        }
+    }
+}
+
+@include generarcolumnas('mb');
+
+//........Flexbox- Página Contacto------------
+@mixin flexboxCentrado($eje-principal, $ejesecundario) {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}

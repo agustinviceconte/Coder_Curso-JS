@@ -1,0 +1,291 @@
+@import"_variables";
+@import"_media";
+
+
+.titulo-seccion {
+    color: white;
+    font-size: 50px;
+    background-color: black;
+    text-align: center;
+}
+
+.seccion1-caja {
+    background-image: url(../Imagenes/Marshall.jpg);
+    background-size: cover;
+    overflow: hidden;
+    color: whitesmoke;
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 50px;
+    border: white solid;
+
+
+}
+
+.articulo1-caja {
+    margin-bottom: 100px;
+    height: fit-content;
+    display: flex;
+   
+
+}
+
+.articulo-titulo {
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.86);
+    box-shadow: $sombracaja;
+    padding: 10px;
+    height: 50px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+
+}
+
+.nota{
+    background-color: chocolate;
+    width: 100%;
+    display: flex;
+    height: fit-content;
+    
+    }
+
+.imagen-caja {
+    overflow: hidden;
+    background-size:cover;
+    width: fit-content;
+    height: fit-content;
+
+}
+
+
+.parrafo-caja {
+    background-color: rgba(32, 30, 30, 0.86);
+    padding: 10px;
+    height: fit-content;
+    margin-top: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.caja-aside {
+    margin-top: 270px;
+    margin-left: 50px;
+    width: 350px;
+    height: fit-content;
+    background-color: rgba(32, 30, 30, 0.86);
+
+
+}
+
+.aside {
+    margin-top: 0px;
+    // width: 350px;
+
+}
+
+.aside-titulo {
+
+    color: white;
+    background-color: rgba(0, 0, 0, 0.86);
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.aside-list {
+
+    padding: 20px;
+}
+
+.discos {
+    list-style: square;
+}
+
+.articulo2-caja {
+    margin-bottom: 50px;
+    height: 300px;
+    width: 80%;
+    position: relative;
+
+}
+
+.articulo2-titulo {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.76);
+    position: relative;
+    top: 30px;
+    left: 400px;
+    width: 450px;
+    padding: 10px;
+
+}
+
+.imagen-caja2 {
+    background-color: gray;
+    background-image: url(../Imagenes/Articulos_Faraones.jpg);
+    background-size: cover;
+    overflow: hidden;
+    width: 400px;
+    height: 310px;
+    position: absolute;
+    top: 30px;
+}
+
+.parrafo-caja2 {
+    background-color: rgba(32, 30, 30, 0.86);
+    padding: 10px;
+    position: relative;
+    width: 450px;
+    height: 250px;
+    top: 25px;
+    left: 400px;
+}
+
+
+
+
+.disto {
+    color: white;
+    border: white solid;
+    margin-bottom: 80px;
+    height: fit-content;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 10%, rgba(42, 39, 39, 1) 93%);
+    margin-bottom: 20px;
+
+    .disto__caja {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-end;
+        margin-top: 20px;
+        height: fit-content;
+    }
+}
+
+
+
+.disto__col__titulo {
+    height: 50px;
+    width: 15%;
+    background-color: black;
+    border: white solid;
+    border-radius: 2em;
+}
+
+.disto__col__titulo:hover {
+    box-shadow: 0 0 8px white;
+}
+
+@for $i from 1 through 5 {
+    .disto__col-#{$i} {
+        height: 50px * $i;
+        width: 15%;
+        background-color: rgba(0, 0, 0, 0.733);
+        border: 1px white solid;
+    }
+}
+
+.seccion-marshall {
+    margin-top: 0;
+    padding: 0;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.seccion2-caja {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 10%, rgba(42, 39, 39, 1) 93%);
+    color: whitesmoke;
+    height: fit-content;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    border: white solid;
+}
+
+.seccion3-caja {
+    background: rgb(255, 255, 255);
+    color: whitesmoke;
+    height: fit-content;
+    width: 100%;
+    margin: auto;
+    margin-top: 0px;
+    border: white solid;
+}
+
+.carousel-item img {
+    height: 300px;
+    object-fit: contain;
+}
+
+.logo_marshall {
+    margin-right: 0px;
+    padding-right: 0px;
+
+}
+
+
+.img-gear {
+    transition: 2s;
+}
+
+.img-gear :hover {
+    transform: scale(1.2);
+}
+
+/*----------- Publicidad MarshaLL-----*/
+.marshall1 {
+    width: 20%;
+    height: 300px;
+    background-color: blanchedalmond;
+    background-image: url(../Imagenes/gear_marshall.guvnor.jpg);
+    background-size: cover;
+}
+
+.marshall2 {
+    width: 25%;
+    height: 300px;
+    background-color: blanchedalmond;
+    background-image: url(../Imagenes/gear_marshall_logo_blanco.jpg);
+    background-size: cover;
+}
+
+.marshall3 {
+    width: 20%;
+    height: 300px;
+    background-color: blanchedalmond;
+    background-image: url(../Imagenes/gear_marshall_bluesbreaker.jpg);
+    background-size: cover;
+}
+
+.texto-pedales1 {
+    color: black;
+    background-color: white;
+    width: 150px;
+    position: absolute;
+    top: 1850px;
+    left: 310px;
+    font-size: 12px;
+}
+
+.texto-pedales2 {
+    color: black;
+    background-color: white;
+    width: 150px;
+    position: absolute;
+    top: 1850px;
+    left: 740px;
+    font-size: 12px;
+}
+
+.container {
+    margin-top: 20px;
+    background-color: white;
+    overflow: hidden;
+}

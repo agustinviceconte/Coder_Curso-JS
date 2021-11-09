@@ -7,8 +7,8 @@ let username= prompt("Ingrese username");
 localStorage.setItem("nombre",username);
 
 
-let username2 = localStorage.getItem("nombre");
-document.write("Nombre: " + username2);
+username = localStorage.getItem("nombre");
+document.write("Nombre: " + username);
 
 
 

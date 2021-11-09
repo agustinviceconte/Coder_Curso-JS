@@ -1,0 +1,162 @@
+.estiloNoticias {
+    color: black;
+    background-color: orange;
+    font-size: 18px;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.noticias {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    border-radius: 2rem;
+    border: white;
+    box-shadow: $sombracaja;
+    border: solid;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.encabezado-noticias {
+    width: 100%;
+    background-color: black;
+    background-size: cover;
+    padding: 1em;
+    color: white;
+
+}
+
+.seccion-noticias {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: right;
+    background-color: black;
+    border: white solid;
+    height: fit-content;
+
+}
+
+.noticia-caja {
+    width: 95%;
+    margin-top: 20px;
+    background-color: black;
+    margin-bottom: 50px;
+    border: white solid;
+    transition: 1s;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+// .noticia-caja:hover{
+//     transform: scale(1.1);
+// }
+.parrafo-noticias {
+    color: white;
+    width: 100%;
+    background-color: black;
+    margin-left: px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.audio {
+    object-position: center;
+    border: orange;
+    border-style: ridge;
+}
+
+.seccion-sudestando {
+    background-color: black;
+}
+
+.Sudestando {
+    display: grid;
+    grid-template-areas:
+        "titulo titulo martini martini living"
+        "playa playa martini martini living"
+        "playa playa martini martini surf"
+        "playa playa martini martini surf";
+    grid-template-columns: repeat(5, 2fr);
+    grid-template-rows: repeat(4, 2fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 700px;
+    border: white solid;
+    margin-bottom: 50px;
+}
+
+.sudestando-titulo {
+    grid-area: titulo;
+    margin-left: 15px;
+    margin-top: 0;
+    overflow: visible;
+    background-color: black;
+    color: white;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium',
+        'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: baseline;
+    position: relative;
+}
+
+.boton-sudestando {
+    background-color: black;
+    margin-left: 1em;
+
+}
+
+.menu-sudestando {
+    background-color: black;
+    max-width: 50px;
+}
+
+.item-sudestando {
+    color: white;
+}
+
+.sudestando-playa {
+    grid-area: playa;
+    border: white solid;
+    overflow: hidden;
+}
+
+.sudestando-martini {
+    grid-area: martini;
+    border: white solid;
+    overflow: hidden;
+
+}
+
+.sudestando-living {
+    grid-area: living;
+    border: white solid;
+    overflow: hidden;
+}
+
+.sudestando-surf {
+    grid-area: surf;
+    border: white solid;
+    overflow: hidden;
+}
+
+.no-disponible{
+    color: white;
+    text-align: center;
+    font-size: 16px;
+
+}
+

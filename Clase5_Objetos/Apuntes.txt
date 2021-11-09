@@ -2,10 +2,56 @@
 developer.mozilla.org/es/docs/Web/JavaScript
 www.3schools.com
 
--------------------------
-Crear objetos cursos:
+Programación orientada a objetos (ver)
 
-nombreCurso
-duracion
-precio
-vacantes
+-------------------------
+OBJETOS 
+
+Propiedades : variables (nombre, edad, dirección, etc)
+Métodos: Funciones asociadas al objeto
+
+                key      value   key  value   key      value
+const persona1={nombre:"Homero",edad: 39,    calle: "Av. Sienpreviva 742"}
+
+OBTENER VALORES (VALUE) DEL OBJETO
+------------------------------------
+console.log(persona1.nombre);
+console.log(persona1["nombre");
+
+ASIGNAR VALORES A LAS PROPIEDADES DEL OBJETO
+---------------------------------------------
+persona1.nombre="******";
+persona1["edad"]=36
+
+------------------------------------------
+CONSTRUCTURES
+
+function Persona(nombre, edad, calle){       //primera letra del objeto en mayúscula
+    this.nombre =nombre;
+    this.edad =edad;
+    this.calle =calle;
+    this.hablar=function(){console.log("Hola soy " + this.nombre)}
+}
+const persona1 = new Persona("Homero",39,"Av. Siempreviva 742");
+const persona2 = new Persona("Marge",36,"Av. Siempreviva 742");
+persona1.hablar();
+persona2.hablar();
+
+RECORRER OBJETO
+-------------------------
+for (const propiedad in persona1){
+    console.log(persona1[propiedad]);
+}
+
+if(typeof TIENDA[propiedad] != "function")  //no muestra los métodos en la lista de propiedades
+
+
+
+
+
+
+
+
+
+
+

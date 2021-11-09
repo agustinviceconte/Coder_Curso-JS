@@ -1,0 +1,22 @@
+
+Para las funciones utilizar variables locales, dentro de lo posible.
+
+FUNCIONES ANONIMAS
+-------------------
+
+const suma = function (a,b) {return a + b};
+console.log(suma(15,20));
+
+ARROW FUNCTION 
+-----------------------
+const suma = (a,b) => {return a +b};
+const resta = (a,b) => a-b;
+
+console.log(suma(15,20));
+console.log(resta(20,5));
+
+const iva= x => x * 0.21;
+let precioProducto= 500;
+let precioDescuento = 50;
+let nuevoPrecio = resta(suma(precioProducto, iva(precioDescuento)),precioDescuento);
+console.log(nuevoPrecio);

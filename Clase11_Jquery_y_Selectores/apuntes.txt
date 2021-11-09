@@ -1,0 +1,40 @@
+Librerias
+
+https://momentjs.com/ : manejo de fechas
+
+https://www.chartjs.org/  : gráficos
+
+Acceso:
+
+- mediante descarga local e inicialización (requiere node)
+- mediante CDN (content delivery network)
+
+            Archivo comun: librería.js
+            Archivo minificado: librería.min.js (recomendado)
+-------------------------------------------------------------------------------
+JQUERY
+
+Selectores: devuelven siempre una colección
+
+plugins: por ejemplo carrousel
+
+sintaxis: $('selector'); =elije todos los elementos
+          $("#selector); = by Id
+          $(".Selector"); = by class name
+          $("li"); = by tag name
+
+combinacion 
+
+$("li.nombre-clase #caja"); = selecciona todo <li> con clase "nombre-clase" y que tenga un hijo "caja"
+
+--------------------------------------------------------------------------------
+SELECTORES AVANZADOS
+
+$("p:last");                 selecciona el último <p> de la página
+$("li:first-child");         selecciona todos los <li> que son primeros hijos
+$("li:last-child");          selecciona todos los <li> que son últimos hijos
+$("li:only-child");          selecciona todos los <li> que sean únicos hijos
+$("li:nth-child(3)");        selecciona todos los <li> que sean el 3er elemento
+$("tr:nth-child(odd)");      selecciona todos los <tr> que sean impares
+$("tr:nth-child(eleven)");   selecciona todos los <tr> que sean pares
+$("div:nth-child(3n");       selecciona cada tercer elemento <div>  
