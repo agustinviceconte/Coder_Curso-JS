@@ -4,7 +4,6 @@
 
 
 
-
 //Creación  de los cursos
 class Curso {
 
@@ -57,6 +56,11 @@ class Curso {
         
             
     }
+
+const modoOscuro=document.getElementById("cc");
+$("#modoOscuro").on("click",()=>{
+     modoOscuro.style.backgroundColor = "black";
+})
   //Instanciado de los cursos, carga en array, transformación  y guardado en local Storage  
 let cursos=[]; 
 const cursoGrabacionAnalogica = new Curso("Grabación Analógica","Sonido","20hs","10000");
@@ -69,28 +73,43 @@ const guardarLocal = (clave, valor)=>{localStorage.setItem(clave,valor)};
 for(const curso of cursos){
     guardarLocal(curso.nombre, JSON.stringify(curso));
 }
-//guardarLocal("Lista de Cursos", JSON.stringify(cursos));
 
+let btnHomeStudioMostrar=document.getElementById("btnHomeStudioMostrar")
+btnHomeStudioMostrar.addEventListener("click",mostrarDetalleHomeStudio)
+function mostrarDetalleHomeStudio(){ 
+ console.log("ok");
+ document.getElementById("detalleHomeStudio").show();
+ 
+}
+
+$("#btnHomeStudioMostrar").on("click",()=>{
+    $("#detalleHomeStudio").show()
+    console.log("ok");
+})
 
 //botones para mostrar el curso seleccionado y borrar los datos
 let mostrar = document.getElementById("btnMostrar").addEventListener("click",mostrarCurso);
 let limpiar = document.getElementById("limpiar").addEventListener("click",_=>{location.reload();
 });
 
+
 //guarda los datos ingresados en local Storage y muestra mensaje en pantalla
 let datosIngresados=[]
- $("#btnAceptar").on("click",()=>{
+ $("#btnAceptar").on("click",()=>{    
  datosIngresados.push("Nombre: " + $("#nombre").val());
  datosIngresados.push("Email: " + $("#email").val());
  datosIngresados.push("Curso: "+$("#cursos").val());
  const guardarDatos=localStorage.setItem("Datos Ingresados",datosIngresados);
  console.log(datosIngresados)// Chequeo de ingreso de datos ok
+ 
  $("#datosIngresados").html(`
-     <div>
-         <h5>Gracias por contactarnos. En breve le enviaremos las fechas de inscripción y temario del curso</h5>
+     <div style="background-color: black; padding:10px">
+         <h5 style="color: white">Gracias por contactarnos. En breve le enviaremos las fechas de inscripción y temario del curso</h5>
      </div>
  `);
-  
+ 
+  $("#datosIngresados").prepend(`<h3 style="display:none" >PROXIMAMENTE CLINICAS GRATUITAS!!`);
+    $("h3").show(3000);
 })  
 
 
@@ -99,9 +118,8 @@ let cursosAMostrar=true;
 //funcion para mostrar el curso
 function mostrarCurso(){
     const cursoSeleccionado = document.getElementById("cursos").value;
-
-
-    switch (cursoSeleccionado){
+        
+        switch (cursoSeleccionado){
         case "grabacionAnalogica":
            cursosAMostrar=cursoGrabacionAnalogica.verDatosCurso();
             let grabacionAnalogicaEnStorage= JSON.parse(localStorage.getItem("Grabación Analógica"));

@@ -5,4 +5,4 @@ mensajeError.style.fontSize ="40px";
 
 const mensajeExito =document.getElementById("mensajeExito");
 mensajeExito.innerHTML="Este es un mensaje de exito";
-mensajeExito.classList.add("mensajeExito");
+mensajeExito.classList.add("mensajeExito"); //La clase tiene que existir en la hoja de estilos

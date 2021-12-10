@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="CSS/estilos.css" />
   </head>
 
-  <body>
+  <body id="body">
     <header>
       <!--navbar-->
 
@@ -106,6 +106,7 @@
             </li>
           </ul>
         </nav>
+        <button id="modoOscuro" >Modo Oscuro</button>
       </div>
       <div class="row hero__caja">
         <div class="sombraTitulos">
@@ -117,13 +118,13 @@
       </div>
     </header>
 
-    <main>
-      <section class="contacto">
-        <div class="contacto__contenedor">
+    <main id="main">
+       <section class="contacto" id="contacto" >  
+        <div class="contacto__contenedor" id="cc" >
           <div class="contacto__redes">
             <div><img src="Imagenes/Contacto_Facebook.jpg" /></div>
           </div>
-          <div class="formulario__contenedor">
+          <div class="formulario__contenedor" id="form">
             <form>
               <h2
                 class="text-white text-center"
@@ -140,13 +141,16 @@
                   >Nombre</label
                 >
                 <input
-                  type="Text"
+                  
+                  type="text"
                   name="Nombre"
                   id="nombre"
                   placeholder="Tu Nombre"
                   value=""  
                 />
-              </div>
+               </div>
+               <div id="errorNombre" style="display: none; color: red;" >
+                <p>Se debe ingresar texto</p></div>
               <div>
                 <label
                   class="contacto-label"
@@ -194,7 +198,7 @@
             <div id="datosIngresados" style="color: black; text-align: center;">
 
             </div>
-            
+           
             <button class="reset" id="btnMostrar" style="margin-left: 50px">
               Mostrar Curso
             </button>
@@ -226,11 +230,15 @@
     </main>
     <footer class="footer">
       <div class="container" style="background-color: orange">
+       
+       
         <div
           class="row"
           style="display: flex; flex-direction: row; align-items: baseline"
         >
+        
           <div class="col-9 col-md-10">
+             
             <p class="footer__span">
               2021-Sudestar Producciones. Todos los derechos reservados
             </p>
@@ -269,9 +277,13 @@
         </div>
       </div>
     </footer>
+    
+    
+    
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="contacto.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="contacto.js"></script>
+    
     
   </body>
 </html>

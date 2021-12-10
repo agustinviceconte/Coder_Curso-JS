@@ -124,30 +124,74 @@
           Sonido
         </h2>
         <div class="row cursos__caja">
-          <div class="cursos__marco">
+          
+          <div class="cursos__marco" style="height: fit-content;">
             <h3 class="cursos__nombre">Home Studio</h3>
             <div class="cursos__imagen1"></div>
-            <p class="cursos__parrafo">
+            <p class="cursos__parrafo" style="padding: 10px">
               Finalidad: Introducción a la configuración y puesta a punto de un
               home studio básico.
-            </p>
-          </div>
+             </p>
+             <div   style="display: flex;justify-content: flex-end;">
+             <button id="btnHomeStudioMostrar" class="btn btn-secondary" style="margin:10px" value= "Home Studio">Ver mas</button>
+             </div>
+             <p style="text-align: center; font-size: 20px;padding: 10px;color: white;display: none  ;border: solid white;">
+              Sin Vacantes</p>
+              <div id="detalleHomeStudio" style="display: none;">
+                <ul id="listaHomeStudio"  >
 
-          <div class="cursos__marco">
+                </ul>
+                
+              
+                <div   style="display: flex;justify-content: flex-end;">
+              <a  href="#formulario" style="color: white;text-decoration: none;"><button id="btnHomeStudioInscripcion" class="btn btn-secondary" style="margin:10px">Inscripción</button></a>
+              <button id="btnHomeStudioOcultar" class="btn btn-secondary" style="margin:10px">Ocultar</button>
+              </div>
+            </div>
+           </div>
+        
+          <div class="cursos__marco" style="height: fit-content;">
             <h3 class="cursos__nombre">Grabación Digital</h3>
             <div class="cursos__imagen2"></div>
-            <p class="cursos__parrafo">
+            <p class="cursos__parrafo"style="padding: 10px">
               Profundizar en el conocimiento de las técnicas necesarias para la
               grabación digital
             </p>
+            <div   style="display: flex;justify-content: flex-end;">
+            <button id="btnGrabacionDigital"class="btn btn-secondary" style="margin:10px" >Ver mas</button>
           </div>
-          <div class="cursos__marco">
+          <div id="detalleGrabacionDigital" style="display: none;">
+            <ul id="listaGrabacionDigital"   style="display:flex;flex-direction: column;">
+              
+            </ul>
+          
+            <div   style="display: flex;justify-content: flex-end;">
+              <a href="#formulario" style="color: white;text-decoration: none;"> <button id="btnGrabacionDigitalInscripcion" class="btn btn-secondary" style="margin:10px">Inscripción</button></a>
+          <button id="btnGrabacionDigitalOcultar" class="btn btn-secondary" style="margin:10px">Ocultar</button>
+          </div>
+        </div>
+        </div>
+        
+          <div class="cursos__marco" style="height: fit-content;">
             <h3 class="cursos__nombre">Grabación Analógica</h3>
             <div class="cursos__imagen3"></div>
-            <p class="cursos__parrafo">
+            <p class="cursos__parrafo"style="padding: 10px">
               Profundizar en el conocimiento de las técnicas necesarias para la
               grabación analógica
             </p>
+            <div style="display: flex;justify-content: flex-end;">
+            <button id="btnGrabacionAnalogica" class="btn btn-secondary"style="margin:10px">Ver mas</button>
+            </div> 
+            <div id="detalleGrabacionAnalogica" style="display: none;">
+              <ul id="listaGrabacionAnalogica"   style="display:flex;flex-direction: column;">
+                
+              </ul>
+            
+              <div   style="display: flex;justify-content: flex-end;">
+              <a  href="#formulario" style="color: white;text-decoration: none;"> <button id="btnGrabacionAnalogica" class="btn btn-secondary" style="margin:10px">Inscripción</button></a>
+            <button id="btnGrabacionAnalogicaOcultar" class="btn btn-secondary" style="margin:10px">Ocultar</button>
+            </div>
+          </div>
           </div>
         </div>
       </section>
@@ -156,29 +200,70 @@
         <h2 class="cursos__titulo text-white text-center p-2" id="Foto-Video">
           Fotografía y video
         </h2>
-        <div class="row cursos__caja">
-          <div class="cursos__marco">
+        <div class="row cursos__caja" style="height: fit-content;">
+          <div class="cursos__marco" style="height: fit-content;">
             <h3 class="cursos__nombre">Video</h3>
             <div class="cursos__imagen4"></div>
-            <p class="cursos__parrafo">Introducción a la grabación de videos</p>
+            <p class="cursos__parrafo" style="padding: 10px">Introducción a la grabación de videos</p>
+            <div style="display: flex;justify-content: flex-end;">
+            <button id="btnVideo" class="btn btn-secondary"style="margin:10px">Ver mas</button>
+            </div>
+            <div id="detalleVideo" style="display: none;">
+              <ul id="listaVideo"   style="display:flex;flex-direction: column;">
+                
+              </ul>
+            
+            
+              <div   style="display: flex;justify-content: flex-end;">
+            <a  href="#formulario" style="color: white;text-decoration: none;">
+            <button id="btnVideo" class="btn btn-secondary" style="margin:10px">Inscripción</button></a>
+            <button id="btnVideoOcultar" class="btn btn-secondary" style="margin:10px">Ocultar</button>
+            </div>
           </div>
+          </div>
+      
 
-          <div class="cursos__marco">
+          <div class="cursos__marco"style="height: fit-content;">
             <h3 class="cursos__nombre">Fotografía Analógica</h3>
             <div class="cursos__imagen5"></div>
             <p class="cursos__parrafo">
               Introducción a la fotografía analógica
             </p>
+            <div style="display: flex;justify-content: flex-end;">
+            <button id="btnFotografiaAnalogica" class="btn btn-secondary"style="margin:10px">Ver mas</button>
           </div>
-          <div class="cursos__marco">
+          <div id="detalleFotografiaAnalogica" style="display: none;">
+            <ul id="listaFotografiaAnalogica" style="display:flex;flex-direction: column;">
+              
+            </ul>
+          
+            <div   style="display: flex;justify-content: flex-end;">
+              <a  href="#formulario" style="color: white;text-decoration: none;">
+          <button id="btnHomeStudioInscripcion" class="btn btn-secondary" style="margin:10px">Inscripción</button></a>
+          <button id="btnFotografiaAnalogicaOcultar" class="btn btn-secondary" style="margin:10px">Ocultar</button>
+          </div>
+          </div>
+          </div>
+          <div class="cursos__marco"style="height: fit-content;">
             <h3 class="cursos__nombre">Fotografía Digital</h3>
             <div class="cursos__imagen6"></div>
             <p class="cursos__parrafo">Introducción a la fotografía digital</p>
+            <div style="display: flex;justify-content: flex-end;">
+            <button id="btnFotografiaDigital" class="btn btn-secondary"style="margin:10px">Ver mas</button>
+            </div>
+            <div id="detalleFotografiaDigital" style="display: none;">
+              <ul id="listaFotografiaDigital" style="display:flex;flex-direction: column;">
+                
+              </ul>
+            
+              <div   style="display: flex;justify-content: flex-end;">
+                <a  href="#formulario" style="color: white;text-decoration: none;">
+            <button id="btnHomeStudioInscripcion" class="btn btn-secondary" style="margin:10px">Inscripción</button></a>
+            <button id="btnFotografiaDigitalOcultar" class="btn btn-secondary" style="margin:10px">Ocultar</button>
+            </div>
           </div>
         </div>
       </section>
-
-     
 
       <section class="section-cronograma">
         <h2 class="cursos__titulo text-white text-center" id="Cronograma">
@@ -199,55 +284,204 @@
                   <td>Home studio</td>
                   <td>01/08/2021 19hs</td>
                   <td>
-                    4 Clases de 2hs dos veces por semana
-                    <a href="contacto.html">+ Info</a>
+                    5 Clases de 2hs dos veces por semana
+                    
                   </td>
                 </tr>
                 <tr>
                   <td>Grabación Digital</td>
                   <td>15/08/2021 19hs</td>
                   <td>
-                    6 Clases de 2hs dos veces por semana
-                    <a href="contacto.html">+ Info</a>
+                    8 Clases de 2hs dos veces por semana
+                  
                   </td>
                 </tr>
                 <tr>
                   <td>Grabación Analógica</td>
                   <td>01/10/2021 19hs</td>
                   <td>
-                    8 Clases de 2hs dos veces por semana<a href="contacto.html"
-                      >+ Info</a
-                    >
+                    10 Clases de 2hs dos veces por semana
                   </td>
                 </tr>
                 <tr>
                   <td>Video</td>
                   <td>03/08/2021 19hs</td>
                   <td>
-                    4 Clases de 2hs dos veces por semana<a href="contacto.html"
-                      >+ Info</a
-                    >
+                    10 Clases de 2hs dos veces por semana
                   </td>
                 </tr>
                 <tr>
                   <td>Fotografía Digital</td>
                   <td>20/08/2021 19hs</td>
                   <td>
-                    4 Clases de 2hs dos veces por semana
-                    <a href="contacto.html">+ Info</a>
+                    9 Clases de 2hs dos veces por semana
                   </td>
                 </tr>
                 <tr>
                   <td>Fotografía Analógica</td>
                   <td>05/10/2021 19hs</td>
                   <td>
-                    4 Clases de 2hs dos veces por semana<a href="contacto.html"
-                      >+ Info</a>
-                    >
+                    8 Clases de 2hs dos veces por semana
                   </td>
                 </tr>
               </tbody>
             </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacto" id="contacto">
+        <div class="contacto__contenedor" id="cc">
+          <div class="contacto__redes">
+            <div><img src="Imagenes/Contacto_Facebook.jpg" /></div>
+          </div>
+          <div class="formulario__contenedor" id="form">
+            <form>
+              <h2
+                id="formulario"
+                class="text-white text-center"
+                style="margin-bottom: 50px; margin-top: 30px"
+              >
+                Formulario de Inscripción
+              </h2>
+              <div id="datos">
+                <label
+                  class="contacto-label"
+                  for="nombre"
+                  style="margin-bottom: 30px"
+                  value=""
+                  >Nombre</label
+                >
+                <input
+                  type="text"
+                  name="Nombre"
+                  id="nombre"
+                  placeholder="Tu Nombre"
+                  value=""
+                />
+              </div>
+              <div id="datos">
+                <label
+                  class="contacto-label"
+                  for="Nro.Documento"
+                  style="margin-bottom: 30px"
+                  value=""
+                  >Nr.Documento</label
+                >
+                <input
+                  type="text"
+                  name="Nr.Documento"
+                  id="nroDocumento"
+                  placeholder="Nro.documento"
+                  value=""
+                />
+              </div>
+              
+              <div>
+                <label
+                  class="contacto-label"
+                  for="email"
+                  style="margin-bottom: 30px"
+                  >E-mail</label
+                >
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Tu e-mail"
+                  value=""
+                />
+              </div>
+              <div>
+                <label class="contacto-label" style="margin-bottom: 30px"
+                  >Curso</label
+                >
+                <select id="cursos">
+                  <option value="">Seleccione</option>
+                  <option value="Home Studio">
+                    Home Studio
+                  </option>
+                  <option value="Grabacion Digital">Grabación Digital</option>
+                  <option value="Grabacion Analogica">
+                    Grabación Analógica
+                  </option>
+                  <option va  lue="Video">Video</option>
+                  <option value="Fotografia Analogica">Fotografía Analógica</option>
+                  <option value="Fotografia Digital">Fotografía Digital</option>
+                </select>
+              </div>
+              <div>
+                <label class="contacto-label" for="" style="color: black;">PROMOCION</label>
+                <input
+                  type="text"
+                  name="codigoPromo"
+                  id="promocion"
+                  placeholder="INGRESE CODIGO"
+                  style="margin-right: 100px"
+                  value=""
+                />
+              </div>
+              <div id="contenedorCurso" style="width: 280px; height: auto">
+                <ul id="cursoSelect" style="padding: 20px; color: black"></ul>
+              </div>
+            </form>
+            <div id="confirmarDatos" style="color: black;display: none;border:solid 1px black;height: fit-content;">
+              <h4 style="color: black;text-align: center;">Ficha de Inscripción</h2>
+              <div id="datosIngresados">
+        
+                
+              
+              </div> 
+              
+              <div id="mensajeConfirmacion">
+                
+              </div>
+            </div>
+
+            <div
+              id="botonera"
+              style="color: black; text-align: center"
+            ></div>
+           
+            <button
+              class="reset"
+              id="btnAceptar"
+              style="width: 120px; height: 70px; margin-left: 30px"
+            >
+              Aceptar
+            </button>
+            <button
+              class="reset"
+              id="btnConfirmar"
+              style="width: 120px; height: 70px; margin-left: 25px;display: none;"
+              
+            >
+              Confirmar
+            </button>
+            <button
+              class="reset"
+              id="limpiar"
+              style="width: 120px; height: 70px; margin-left: 25px"
+            
+            >
+              Limpiar
+            </button>
+          </div>
+          <div class="contacto__redes">
+            <div>
+              <img
+                class="contacto_twitter"
+                src="Imagenes/contacto_twitterfull.jpg"
+                width="250px"
+              />
+            </div>
+            <div>
+              <img
+                class="contacto_youtube"
+                src="Imagenes/contacto_youfull.jpg"
+                width="250px"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -298,8 +532,13 @@
         </div>
       </div>
     </footer>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="index.js"></script>
 
+   
+    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script> 
+    <script src="index.js"></script>
+    
   </body>
 </html>

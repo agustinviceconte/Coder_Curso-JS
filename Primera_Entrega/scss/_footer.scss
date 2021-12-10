@@ -1,0 +1,22 @@
+.footer {
+    background-color: orange;
+    height: 50px;
+    margin-top: 0px;
+    width: 100%;
+
+    .footer__span {
+        color: black;
+        font-size: x-small;
+        text-align: center;
+    }
+}
+
+.footer__img {
+    height: 25px;
+    transition: transform 0.5s;
+
+}
+
+.footer__img:hover {
+    transform: rotate(360deg);
+}

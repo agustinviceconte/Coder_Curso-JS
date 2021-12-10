@@ -1,0 +1,116 @@
+@import"_variables";
+
+
+.contacto {
+        background: rgb(255, 255, 255);
+        background: linear-gradient(0deg, rgba(255, 255, 255, 1) 24%, rgba(42, 39, 39, 1) 93%);
+        padding-bottom: 40px;
+
+}
+
+.contacto__contenedor {
+        @include flexboxCentrado('space-between', 'flex-start');
+}
+
+
+.contacto__redes {
+        display: flex;
+        flex-direction: column;
+        background-color: yellow;
+        border: white solid;
+}
+
+
+
+.formulario__contenedor {
+        color: white;
+
+}
+
+.Formulario {
+        border: solid white;
+
+        width: 100%;
+        height: fit-content;
+        padding: 0%;
+}
+
+.datos-formulario {
+        text-align: center;
+}
+
+.contacto-label {
+        color: whitesmoke;
+
+        margin-left: 10px;
+        width: 150px;
+        padding: 5px;
+}
+
+textarea {
+        background-color: transparent;
+        color: black;
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+        width: 80%;
+        height: 180px;
+        margin-top: 20px;
+
+}
+
+div>input {
+        color: black;
+        background-color: rgb(165, 168, 168);
+        border: white solid;
+        margin-left: 5px;
+        padding: 5px;
+}
+
+div>select {
+        color: black;
+        background-color: rgb(165, 168, 168);
+        border: white solid;
+        margin-left: 10px;
+        padding: 5px;
+
+}
+
+Form>Div {
+        color: white;
+        margin-top: 20px;
+        margin-left: 10px;
+}
+
+h4 {
+        font-size: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+}
+
+form>button {
+        margin-top: 15px;
+        margin-left: 50px;
+        margin-right: 15px;
+
+        color: white;
+        background-color: teal;
+        padding: 10px;
+
+}
+
+.reset {
+        margin-top: 15px;
+        margin-left: 50px;
+        margin-right: 20px;
+        color: white;
+        background-color: teal;
+        padding: 10px;
+}
+
+.vox {
+        background-image: url(../Imagenes/Marshall.jpg);
+        background-repeat: repeat-y;
+        background-position: right top;
+}
+
+@import"_media";

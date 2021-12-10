@@ -1,0 +1,190 @@
+@import"_variables";
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navegacion__caja {
+    width: 100% !important;
+    background-color: rgba(0, 0, 0, 0.651);
+    backdrop-filter: blur(8px);
+    position: fixed;
+    z-index: 1;
+    height: fit-content;
+}
+
+.navegacion__logo {
+    display: inline-block;
+
+}
+
+.navegacion__navbar {
+
+    display: inline-block;
+}
+
+.navegacion__menu {
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+
+    .navegacion__item {
+        display: inline-block;
+        margin: 1em;
+        text-decoration: none;
+
+        .navegacion__link {
+            text-decoration: none;
+            color: whitesmoke;
+        }
+    }
+}
+
+ul {
+    list-style: none;
+    font-size: 0;
+}
+
+li {
+    display: inline-block;
+    position: relative;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-decoration: none;
+
+
+}
+
+ul ul {
+    position: absolute;
+    line-height: 15px;
+    display: none;
+    width: 150px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.651);
+    backdrop-filter: blur(8px);
+    text-decoration: none;
+}
+
+ul ul li {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+.submenu {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+
+
+
+.hero__caja {
+    width: 100%;
+    background-image: url(../Imagenes/Marshall.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0%;
+    padding: 0%;
+
+
+    .hero__titulo {
+        width: 100%;
+        text-align: center;
+        font-size: 80px;
+        color: white;
+        margin-top: 100px;
+        font-family: Roboto;
+    }
+
+    .hero__subtitulo {
+        margin-top: 50px;
+        margin-bottom: 80px;
+        font-style: bold;
+        font-size: 60px;
+        text-align: center;
+        color: white;
+    }
+}
+
+.sombraTitulos {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+}
+
+@media(max-width : 425px) {
+    .hero__caja{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .hero__caja .hero__titulo {
+        font-size: 10px;}
+
+        .navegacion__caja{
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+        }
+
+
+        .navegacion__menu{
+            width: 100%;
+            display: inline;
+            margin: 0px;
+            padding:0PX;
+         }
+
+         .navegacion__logo{
+             height: 40px;
+         }
+        .navegation__navbar{
+             margin: 0px;
+            padding: 0px;
+            
+        }
+      .navegacion__menu  
+      .navegacion__item{
+            margin: 5px;
+            
+        }
+        .navegacion__link{
+            font-size: 9px;
+            font-weight: bold;
+            
+        
+    }
+}
+
+@media (max-width: 320px) {
+    .hero__caja .hero__titulo {
+        font-size: 40px;
+        margin-left: 0%;
+    }
+
+    .hero__caja .hero__subtitulo {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 425px) {
+    .hero__caja .hero__titulo {
+        font-size: 40px;
+        margin-left: 0%;
+    }
+
+    .hero__caja .hero__subtitulo {
+        font-size: 30px;
+
+    
+    }
+}

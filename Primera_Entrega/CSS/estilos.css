@@ -101,7 +101,7 @@ ul {
 }
 
 li {
-  display: inline-block;
+  
   position: relative;
   font-size: 16px;
   font-family: 'Courier New', Courier, monospace;
@@ -638,7 +638,10 @@ td {
 
 .Sudestando {
   display: grid;
-  grid-template-areas: "titulo titulo martini martini living" "playa playa martini martini living" "playa playa martini martini surf" "playa playa martini martini surf";
+  grid-template-areas: "titulo titulo martini martini living"
+ "playa playa martini martini living"
+ "playa playa martini martini surf"
+ "playa playa martini martini surf";
   grid-template-columns: repeat(5, 2fr);
   grid-template-rows: repeat(4, 2fr);
   grid-column-gap: 0px;
@@ -656,7 +659,8 @@ td {
   background-color: black;
   color: white;
   font-size: 60px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium',
+ 'Arial Narrow', Arial, sans-serif;
   display: flex;
   align-items: baseline;
   position: relative;
